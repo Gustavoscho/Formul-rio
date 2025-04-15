@@ -1,6 +1,7 @@
 body{
-    background-color: cadetblue;
+    background-color: rgb(219, 206, 206);
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #img{
@@ -22,4 +23,8 @@ body{
     margin-right: 450px;
     justify-items:center;
     text-align: center;
+}
+
+.respostas{
+
 }
