@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,128 +7,171 @@
     <link rel="stylesheet" href="style.css">
     <script src="validacao.js"></script>
 </head>
+
 <body>
-    <img id ="img" src="cartao.png" alt="">
-    <h1 id ="titulo">Formulário de Cadastro do Cartão da Renner</h1>
-    <div class ="corpo">
-        <h2>Nome completo</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Data de nascimento</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>CPF</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Naturalidade</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Nacionalidade</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Gênero</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>RG</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Estado Civil</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>CEP</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Número do Endereço</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Bairro</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Cidade</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Estado</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>País</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>E-mail</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Telefone</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Deseja receber conteúdo promocioal?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Qual é o melhor horário para entrega de produtos</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Deseja receber informações por qual meio?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Onde trabalha?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Qual área trabalha</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Quanto ganha por mês?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>É vegano?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Possui passagem pela polícia?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Seu nome está no Serasa?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Tem filhos(as)?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Já andou de avião alguma vez?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>sabe cantar o Hino do Brasil?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Torce para qual time?</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
-    <div class ="corpo">
-        <h2>Eu li e aceito os termos e condições desse contrato</h2>
-        <input type="text-area" placeholder="Digite.." class="respostas" required="">
-    </div>  
+    <img id="img" src="cartao.png" alt="">
+    <h1 id="titulo">Formulário de Cadastro do Cartão da Renner</h1>
+    <form>
+        <div class="corpo">
+            <h2>Nome completo</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Data de nascimento</h2>
+            <input type="date" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>CPF</h2>
+            <input type="number" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Naturalidade</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Nacionalidade</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Gênero</h2>
+            <select required="required">
+                <option value="">Masculino</option>
+                <option value="">Feminino</option>
+                <option value="">Outro</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>RG</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Estado Civil</h2>
+            <select required="required">
+                <option value="">Solteiro</option>
+                <option value="">Casado</option>
+                <option value="">Separado</option>
+                <option value="">Divorciado</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>CEP</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Número do Endereço</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Bairro</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Cidade</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Estado</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>País</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>E-mail</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Telefone</h2>
+            <input type="number" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Deseja receber conteúdo promocional?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Qual é o melhor horário para entrega de produtos</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Deseja receber informações por qual meio?</h2>
+            <select required="required">
+                <option value="">E-mail</option>
+                <option value="">Whatsapp</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Onde trabalha?</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Qual área trabalha</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Quanto ganha por mês?</h2>
+            <input type="number" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>É vegano?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Possui passagem pela polícia?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Seu nome está no Serasa?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Tem filhos(as)?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Já andou de avião alguma vez?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>sabe cantar o Hino do Brasil?</h2>
+            <select required="required">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo">
+            <h2>Torce para qual time?</h2>
+            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+        </div>
+        <div class="corpo">
+            <h2>Eu li e aceito os termos e condições desse contrato</h2>
+            <select required="required">
+                <option value="" aria-required="">Sim</option>
+                <option value="">Não</option>
+            </select>
+        </div>
+        <div class="corpo" id="areaenviar">
+            <input type="submit" id="enviar" onclick="validarForm()">
+        </div>
+    </form>
 </body>
+
 </html>

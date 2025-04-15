@@ -5,8 +5,9 @@ body{
 }
 
 #img{
-    width: 1005px;
+    width: 990px;
     height: 500px;
+    border-radius: 30px;
 }
 
 .corpo{
@@ -15,9 +16,12 @@ body{
     margin-left: 450px;
     margin-right: 450px;
     justify-items:center;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 #titulo{
+    border-radius: 10px;
     background-color: rgb(186, 67, 67);
     margin-left: 450px;
     margin-right: 450px;
@@ -25,6 +29,7 @@ body{
     text-align: center;
 }
 
-.respostas{
-
+#areaenviar{
+    padding-top: 10px;
+    background-color: rgb(186, 67, 67);
 }
