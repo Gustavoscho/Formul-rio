@@ -1,0 +1,25 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+#img{
+    width: 1005px;
+    height: 500px;
+}
+
+.corpo{
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-right: 450px;
+    justify-items:center;
+}
+
+#titulo{
+    background-color: rgb(186, 67, 67);
+    margin-left: 450px;
+    margin-right: 450px;
+    justify-items:center;
+    text-align: center;
+}
