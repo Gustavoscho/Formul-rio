@@ -11,30 +11,30 @@
 <body>
     <img id="img" src="cartao.png" alt="">
     <h1 id="titulo">Formulário de Cadastro do Cartão da Renner</h1>
-    <form>
+    <form id="formulario">
         <div class="corpo">
             <h2>Nome completo</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="nome" required="">
         </div>
         <div class="corpo">
             <h2>Data de nascimento</h2>
-            <input type="date" placeholder="Digite.." class="respostas" required="">
+            <input type="date" placeholder="Digite.." id="idade" required="">
         </div>
         <div class="corpo">
             <h2>CPF</h2>
-            <input type="number" placeholder="Digite.." class="respostas" required="">
+            <input type="number" placeholder="Digite.." id="cpf" required="">
         </div>
         <div class="corpo">
             <h2>Naturalidade</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="naturalidade" required="">
         </div>
         <div class="corpo">
             <h2>Nacionalidade</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="nacionalidade" required="">
         </div>
         <div class="corpo">
             <h2>Gênero</h2>
-            <select required="required">
+            <select required="required" id="genero">
                 <option value="">Selecione</option>
                 <option value="">Masculino</option>
                 <option value="">Feminino</option>
@@ -43,11 +43,11 @@
         </div>
         <div class="corpo">
             <h2>RG</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="number" placeholder="Digite.." id="rg" required="">
         </div>
         <div class="corpo">
             <h2>Estado Civil</h2>
-            <select required="required">
+            <select required="required" id="civil">
                 <option value="">Selecione</option>
                 <option value="">Solteiro</option>
                 <option value="">Casado</option>
@@ -57,39 +57,39 @@
         </div>
         <div class="corpo">
             <h2>CEP</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="number" placeholder="Digite.." id="cep" required="">
         </div>
         <div class="corpo">
             <h2>Número do Endereço</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="number" placeholder="Digite.." id="endereco" required="">
         </div>
         <div class="corpo">
             <h2>Bairro</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="bairro" required="">
         </div>
         <div class="corpo">
             <h2>Cidade</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="cidade" required="">
         </div>
         <div class="corpo">
             <h2>Estado</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="estado" required="">
         </div>
         <div class="corpo">
             <h2>País</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="pais" required="">
         </div>
         <div class="corpo">
             <h2>E-mail</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="email" required="">
         </div>
         <div class="corpo">
             <h2>Telefone</h2>
-            <input type="number" placeholder="Digite.." class="respostas" required="">
+            <input type="number" placeholder="Digite.." id="telefone" required="">
         </div>
         <div class="corpo">
             <h2>Deseja receber conteúdo promocional?</h2>
-            <select required="required">
+            <select required="required" id="promocao">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -97,11 +97,11 @@
         </div>
         <div class="corpo">
             <h2>Qual é o melhor horário para entrega de produtos</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="entrega" required="">
         </div>
         <div class="corpo">
             <h2>Deseja receber informações por qual meio?</h2>
-            <select required="required">
+            <select required="required" id="info">
                 <option value="">Selecione</option>
                 <option value="">E-mail</option>
                 <option value="">Whatsapp</option>
@@ -109,19 +109,19 @@
         </div>
         <div class="corpo">
             <h2>Onde trabalha?</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="trabalho" required="">
         </div>
         <div class="corpo">
             <h2>Qual área trabalha</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="areatrabalho" required="">
         </div>
         <div class="corpo">
             <h2>Quanto ganha por mês?</h2>
-            <input type="number" placeholder="Digite.." class="respostas" required="">
+            <input type="number" placeholder="Digite.." id="salario" required="">
         </div>
         <div class="corpo">
             <h2>É vegano?</h2>
-            <select required="required">
+            <select required="required" id="vegano">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -129,7 +129,7 @@
         </div>
         <div class="corpo">
             <h2>Possui passagem pela polícia?</h2>
-            <select required="required">
+            <select required="required" id="policia">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -137,7 +137,7 @@
         </div>
         <div class="corpo">
             <h2>Seu nome está no Serasa?</h2>
-            <select required="required">
+            <select required="required" id="serasa">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -145,7 +145,7 @@
         </div>
         <div class="corpo">
             <h2>Tem filhos(as)?</h2>
-            <select required="required">
+            <select required="required" id="filhos">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -153,7 +153,7 @@
         </div>
         <div class="corpo">
             <h2>Já andou de avião alguma vez?</h2>
-            <select required="required">
+            <select required="required" id="aviao">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -161,7 +161,7 @@
         </div>
         <div class="corpo">
             <h2>sabe cantar o Hino do Brasil?</h2>
-            <select required="required">
+            <select required="required" id="hino">
                 <option value="">Selecione</option>
                 <option value="">Sim</option>
                 <option value="">Não</option>
@@ -169,12 +169,13 @@
         </div>
         <div class="corpo">
             <h2>Torce para qual time?</h2>
-            <input type="text-area" placeholder="Digite.." class="respostas" required="">
+            <input type="text-area" placeholder="Digite.." id="time" required="">
         </div>
         <div class="corpo">
             <h2>Eu li e aceito os termos e condições desse contrato</h2>
-            <select required="required">
-                <option value="" aria-required="">Sim</option>
+            <select required="required" id="termos">
+                <option value="">Selecione</option>
+                <option value="" required="required">Sim</option>
                 <option value="">Não</option>
             </select>
         </div>
